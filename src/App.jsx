@@ -1,10 +1,17 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import GlobalStyles from "./styles/GlobalStyles";
+import AppLayout from "./pages/AppLayout";
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <div>hellow world!</div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<AppLayout />} />
+          <Route path="/home" element={<AppLayout />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
