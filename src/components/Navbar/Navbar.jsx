@@ -236,18 +236,18 @@ function Navbar() {
         </RightSection>
       </NavbarBottom>
       <NavLinksStrip>
-        <NavLinkItem href="#home">Home</NavLinkItem>
-        <NavLinkItem href="#about">About Us</NavLinkItem>
-        <NavLinkItem href="#services">Services</NavLinkItem>
-        <NavLinkItem href="#products">Products</NavLinkItem>
-        <NavLinkItem href="#blog">Blog</NavLinkItem>
-        <NavLinkItem href="#careers">Careers</NavLinkItem>
-        <NavLinkItem href="#contact">Contact Us</NavLinkItem>
-        <NavLinkItem href="#faq">FAQ</NavLinkItem>
-        <NavLinkItem href="#testimonials">Testimonials</NavLinkItem>
-        <NavLinkItem href="#portfolio">Portfolio</NavLinkItem>
-        <NavLinkItem href="#news">News</NavLinkItem>
-        <NavLinkItem href="#support">Support</NavLinkItem>
+        <NavLinkItem href="#home">Refrigeration</NavLinkItem>
+        <NavLinkItem href="#about">Dishwashers</NavLinkItem>
+        <NavLinkItem href="#services">Laundry</NavLinkItem>
+        <NavLinkItem href="#products">Cooking</NavLinkItem>
+        <NavLinkItem href="#blog">Range Hoods</NavLinkItem>
+        <NavLinkItem href="#careers">Outdoor Kitchen</NavLinkItem>
+        <NavLinkItem href="#contact">Sinks & Faucets</NavLinkItem>
+        <NavLinkItem href="#faq">Packages</NavLinkItem>
+        <NavLinkItem href="#testimonials">Outlet</NavLinkItem>
+        <NavLinkItem href="#portfolio">Builders</NavLinkItem>
+        <NavLinkItem href="#news">Learning Center</NavLinkItem>
+        <NavLinkItem href="#support">Rebate Center</NavLinkItem>
       </NavLinksStrip>
     </>
   );
