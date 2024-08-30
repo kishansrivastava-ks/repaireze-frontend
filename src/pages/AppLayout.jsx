@@ -5,23 +5,16 @@ import Navbar from "../components/Navbar/Navbar";
 const Layout = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
-
-// const NavBar = styled.nav`
-//   background-color: #333;
-//   color: white;
-//   padding: 1rem;
-//   text-align: center;
-
-//   @media (max-width: 768px) {
-//     padding: 0.75rem;
-//   }
-// `;
 
 const MainBody = styled.main`
   flex: 1;
-  padding: 2rem;
+  /* padding: 2rem; */
   background-color: #f4f4f4;
 
   @media (max-width: 768px) {
