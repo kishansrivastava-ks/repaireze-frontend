@@ -10,6 +10,7 @@ import {
 import MostPopular from "../components/HomePage/MostPopular";
 import NextDayDelivery from "../components/HomePage/NextDayDelivery";
 import OurBrands from "../components/HomePage/OurBrands";
+import Showrooms from "../components/HomePage/Showrooms";
 
 const Container = styled.div`
   display: flex;
@@ -455,6 +456,7 @@ function Home() {
       <MostPopular />
       <NextDayDelivery />
       <OurBrands />
+      <Showrooms />
     </Container>
   );
 }
