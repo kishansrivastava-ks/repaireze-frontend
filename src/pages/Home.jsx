@@ -8,6 +8,7 @@ import {
   FaTools,
 } from "react-icons/fa"; // For Google icon
 import MostPopular from "../components/HomePage/MostPopular";
+import NextDayDelivery from "../components/HomePage/NextDayDelivery";
 
 const Container = styled.div`
   display: flex;
@@ -451,6 +452,7 @@ function Home() {
         </ImageColumn>
       </GuideContainer>
       <MostPopular />
+      <NextDayDelivery />
     </Container>
   );
 }
