@@ -7,6 +7,7 @@ import {
   FaWrench,
   FaTools,
 } from "react-icons/fa"; // For Google icon
+import MostPopular from "../components/HomePage/MostPopular";
 
 const Container = styled.div`
   display: flex;
@@ -14,7 +15,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: #f39b9b; */
+  /* background-color: #f39b9b;
+   */
 `;
 
 // SECTION 1
@@ -448,6 +450,7 @@ function Home() {
           />
         </ImageColumn>
       </GuideContainer>
+      <MostPopular />
     </Container>
   );
 }
