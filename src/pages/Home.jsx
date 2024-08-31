@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa"; // For Google icon
 import MostPopular from "../components/HomePage/MostPopular";
 import NextDayDelivery from "../components/HomePage/NextDayDelivery";
+import OurBrands from "../components/HomePage/OurBrands";
 
 const Container = styled.div`
   display: flex;
@@ -453,6 +454,7 @@ function Home() {
       </GuideContainer>
       <MostPopular />
       <NextDayDelivery />
+      <OurBrands />
     </Container>
   );
 }
