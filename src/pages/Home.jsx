@@ -11,6 +11,7 @@ import MostPopular from "../components/HomePage/MostPopular";
 import NextDayDelivery from "../components/HomePage/NextDayDelivery";
 import OurBrands from "../components/HomePage/OurBrands";
 import Showrooms from "../components/HomePage/Showrooms";
+import UnlockGuide from "../components/HomePage/UnlockGuide";
 
 const Container = styled.div`
   display: flex;
@@ -457,6 +458,7 @@ function Home() {
       <NextDayDelivery />
       <OurBrands />
       <Showrooms />
+      <UnlockGuide />
     </Container>
   );
 }
