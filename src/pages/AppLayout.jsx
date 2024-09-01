@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
 const Layout = styled.div`
   display: flex;
@@ -22,16 +23,16 @@ const MainBody = styled.main`
   }
 `;
 
-const Footer = styled.footer`
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+// const Footer = styled.footer`
+//   background-color: #333;
+//   color: white;
+//   padding: 1rem;
+//   text-align: center;
 
-  @media (max-width: 768px) {
-    padding: 0.75rem;
-  }
-`;
+//   @media (max-width: 768px) {
+//     padding: 0.75rem;
+//   }
+// `;
 
 function AppLayout() {
   return (
@@ -40,15 +41,17 @@ function AppLayout() {
         <h1>My Website</h1>
       </NavBar> */}
       <Navbar />
+
       <MainBody>
         <Outlet />
       </MainBody>
 
-      <Footer>
+      {/* <Footer>
         <p>
           &copy; {new Date().getFullYear()} My Website. All rights reserved.
         </p>
-      </Footer>
+      </Footer> */}
+      <Footer />
     </Layout>
   );
 }
