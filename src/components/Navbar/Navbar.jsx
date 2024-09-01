@@ -8,6 +8,7 @@ import {
   //   FaPhoneAlt,
   FaShoppingCart,
 } from "react-icons/fa"; // Example icons, replace as needed
+import { Link } from "react-router-dom";
 
 // UPPER PART
 const NavContainer = styled.div`
@@ -41,6 +42,7 @@ const NavItem = styled.div`
   display: flex;
   align-items: center;
   margin-right: 2rem;
+  font-weight: bold;
 
   &:not(:last-child) {
     border-right: 1px solid #aaa;
@@ -49,6 +51,15 @@ const NavItem = styled.div`
 
   svg {
     margin-right: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   @media (max-width: 768px) {
@@ -198,15 +209,17 @@ function Navbar() {
         <NavItems>
           <NavItem>
             <FaPhoneAlt />
-            <span>+123 456 7890</span>
+            <Link to="/delivery-policy">Guaranteed Next Day Delivery</Link>
           </NavItem>
           <NavItem>
             <FaEnvelope />
-            <span>info@example.com</span>
+            <Link to="/special-financing">
+              12 Months Special Financing Available
+            </Link>
           </NavItem>
           <NavItem>
             <FaMapMarkerAlt />
-            <span>123 Main St, City</span>
+            <Link to="/outlet-savings">Save up to 60% on Outlet</Link>
           </NavItem>
         </NavItems>
         <NavButton>Contact Us</NavButton>
