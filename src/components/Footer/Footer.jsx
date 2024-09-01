@@ -84,6 +84,7 @@ const FooterLogosContainer = styled.div`
   text-align: center;
   background-color: #1a1a1a;
   background-color: #fff;
+
   /* color: white; */
 `;
 
@@ -110,8 +111,8 @@ const LogosList = styled.div`
 `;
 
 const FooterText = styled.p`
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 0rem;
 
   @media (max-width: 768px) {
     font-size: 0.875rem;
@@ -123,7 +124,7 @@ const LinksList = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 
   a {
     color: white;
@@ -142,7 +143,8 @@ const LinksList = styled.div`
 `;
 
 const DisclaimerText = styled.p`
-  font-size: 0.875rem;
+  font-size: 1rem;
+  min-width: 80%;
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
