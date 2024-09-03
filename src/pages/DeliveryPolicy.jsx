@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import WhatItIncludes from "../components/NavbarPages/NextDayDelivery/WhatItIncludes";
 
 const InfoSection = styled.section`
   width: 100%;
@@ -111,6 +112,7 @@ function DeliveryPolicy() {
           <Button>START HERE</Button>
         </YellowStrip>
       </InfoSection>
+      <WhatItIncludes />
     </>
   );
 }
