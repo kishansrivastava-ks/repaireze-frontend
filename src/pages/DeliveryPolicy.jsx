@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import WhatItIncludes from "../components/NavbarPages/NextDayDelivery/WhatItIncludes";
 import ComparisionChart from "../components/NavbarPages/NextDayDelivery/ComparisonChart";
+import DeliveryCoverage from "../components/NavbarPages/NextDayDelivery/DeliveryCoverage";
+import GNDDSection from "../components/NavbarPages/NextDayDelivery/GNDDSection";
 
 const InfoSection = styled.section`
   width: 100%;
@@ -115,6 +117,8 @@ function DeliveryPolicy() {
       </InfoSection>
       <WhatItIncludes />
       <ComparisionChart />
+      <DeliveryCoverage />
+      <GNDDSection />
     </>
   );
 }
