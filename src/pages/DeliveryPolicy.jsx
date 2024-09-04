@@ -6,6 +6,7 @@ import GNDDSection from "../components/NavbarPages/NextDayDelivery/GNDDSection";
 import DeliveryChecklist from "../components/NavbarPages/NextDayDelivery/DeliveryChecklist";
 import DeliveryDetails from "../components/NavbarPages/NextDayDelivery/DeliveryDetails";
 import Testimonial from "../components/NavbarPages/NextDayDelivery/Testimonial";
+import Faq from "../components/NavbarPages/NextDayDelivery/Faq";
 
 const InfoSection = styled.section`
   width: 100%;
@@ -125,6 +126,7 @@ function DeliveryPolicy() {
       <DeliveryChecklist />
       <DeliveryDetails />
       <Testimonial />
+      <Faq />
     </>
   );
 }
