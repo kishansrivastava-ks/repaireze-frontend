@@ -3,6 +3,9 @@ import WhatItIncludes from "../components/NavbarPages/NextDayDelivery/WhatItIncl
 import ComparisionChart from "../components/NavbarPages/NextDayDelivery/ComparisonChart";
 import DeliveryCoverage from "../components/NavbarPages/NextDayDelivery/DeliveryCoverage";
 import GNDDSection from "../components/NavbarPages/NextDayDelivery/GNDDSection";
+import DeliveryChecklist from "../components/NavbarPages/NextDayDelivery/DeliveryChecklist";
+import DeliveryDetails from "../components/NavbarPages/NextDayDelivery/DeliveryDetails";
+import Testimonial from "../components/NavbarPages/NextDayDelivery/Testimonial";
 
 const InfoSection = styled.section`
   width: 100%;
@@ -119,6 +122,9 @@ function DeliveryPolicy() {
       <ComparisionChart />
       <DeliveryCoverage />
       <GNDDSection />
+      <DeliveryChecklist />
+      <DeliveryDetails />
+      <Testimonial />
     </>
   );
 }
