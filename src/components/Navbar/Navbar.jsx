@@ -209,7 +209,7 @@ function Navbar() {
         <NavItems>
           <NavItem>
             <FaPhoneAlt />
-            <Link to="/delivery-policy">kishan srivastava</Link>
+            <Link to="/delivery-policy">Guaranteed Next Day Delivery</Link>
           </NavItem>
           <NavItem>
             <FaEnvelope />
