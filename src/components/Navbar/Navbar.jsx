@@ -213,9 +213,7 @@ function Navbar() {
           </NavItem>
           <NavItem>
             <FaEnvelope />
-            <Link to="/special-financing">
-              12 Months Special Financing Available
-            </Link>
+            <Link to="/financing">12 Months Special Financing Available</Link>
           </NavItem>
           <NavItem>
             <FaMapMarkerAlt />

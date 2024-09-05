@@ -3,6 +3,7 @@ import GlobalStyles from "./styles/GlobalStyles";
 import AppLayout from "./pages/AppLayout";
 import Home from "./pages/Home";
 import DeliveryPolicy from "./pages/DeliveryPolicy";
+import Financing from "./pages/Financing";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="" element={<Home />} />
             <Route path="home" element={<Home />} />
             <Route path="delivery-policy" element={<DeliveryPolicy />} />
+            <Route path="financing" element={<Financing />} />
           </Route>
         </Routes>
       </BrowserRouter>
