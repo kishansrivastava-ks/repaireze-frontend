@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Faq from "../components/NavbarPages/NextDayDelivery/Faq";
+import YellowStrip from "../components/NavbarPages/Outlet/YellowStrip";
+import Slider from "../components/NavbarPages/Outlet/Slider";
 
 const InfoSection = styled.section`
   width: 100%;
@@ -89,16 +91,20 @@ function Outlet() {
         <BackgroundImage>
           <Overlay />
           <CenterContent>
-            <MainHeading>The All-New Yale Card</MainHeading>
+            <MainHeading>
+              Save Up To 60%
+              <br /> On Top Name Brand Appliances
+            </MainHeading>
             <SubHeading>
-              The Yale Card gives you exclusive benefits like 12 Months Special
-              Financing1, 10% off Yale Outlet, and much more.
+              Hundreds of floor displays, scratch & dent, discontinued and
+              overstocked items ready to take home
             </SubHeading>
-            <Button>START NOW</Button>
+            <Button>EXPLORE NOW</Button>
           </CenterContent>
         </BackgroundImage>
       </InfoSection>
-
+      <YellowStrip />
+      <Slider />
       <Faq />
     </>
   );
