@@ -209,7 +209,7 @@ function Navbar() {
         <NavItems>
           <NavItem>
             <FaPhoneAlt />
-            <Link to="/delivery-policy">Guaranteed Next Day Delivery</Link>
+            <Link to="/delivery-policy">kishan srivastava</Link>
           </NavItem>
           <NavItem>
             <FaEnvelope />
@@ -217,7 +217,7 @@ function Navbar() {
           </NavItem>
           <NavItem>
             <FaMapMarkerAlt />
-            <Link to="/outlet-savings">Save up to 60% on Outlet</Link>
+            <Link to="/outlet">Save up to 60% on Outlet</Link>
           </NavItem>
         </NavItems>
         <NavButton>Contact Us</NavButton>

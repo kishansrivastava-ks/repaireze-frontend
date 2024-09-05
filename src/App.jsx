@@ -4,6 +4,7 @@ import AppLayout from "./pages/AppLayout";
 import Home from "./pages/Home";
 import DeliveryPolicy from "./pages/DeliveryPolicy";
 import Financing from "./pages/Financing";
+import Outlet from "./pages/Outlet";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="delivery-policy" element={<DeliveryPolicy />} />
             <Route path="financing" element={<Financing />} />
+            <Route path="outlet" element={<Outlet />} />
           </Route>
         </Routes>
       </BrowserRouter>
