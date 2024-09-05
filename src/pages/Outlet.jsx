@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Faq from "../components/NavbarPages/NextDayDelivery/Faq";
 import YellowStrip from "../components/NavbarPages/Outlet/YellowStrip";
 import Slider from "../components/NavbarPages/Outlet/Slider";
+import FeaturedCloseouts from "../components/NavbarPages/Outlet/FeaturedCloseouts";
 
 const InfoSection = styled.section`
   width: 100%;
@@ -105,6 +106,7 @@ function Outlet() {
       </InfoSection>
       <YellowStrip />
       <Slider />
+      <FeaturedCloseouts />
       <Faq />
     </>
   );
