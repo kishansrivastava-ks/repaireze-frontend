@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styled from "styled-components";
 import {
   FaPhoneAlt,
@@ -13,11 +14,12 @@ import { Link } from "react-router-dom";
 // UPPER PART
 const NavContainer = styled.div`
   background-color: #dcd0ff;
+  background-color: #e7dfff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
-  height: 50px;
+  /* padding: 0 2rem; */
+  min-height: 50px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -30,6 +32,10 @@ const NavItems = styled.div`
   display: flex;
   align-items: center;
   width: 80%;
+  /* padding-left: 5rem; */
+  /* background-color: red; */
+  justify-content: center;
+  font-size: 2rem;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -59,6 +65,7 @@ const NavItem = styled.div`
 
     &:hover {
       text-decoration: underline;
+      color: #333;
     }
   }
 
@@ -77,6 +84,7 @@ const NavButton = styled.button`
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-align: center;
+  font-size: 2rem;
 
   &:hover {
     background-color: #5a3dbf;
@@ -105,7 +113,27 @@ const NavbarBottom = styled.div`
 const Logo = styled.div`
   font-size: 1.5rem;
   font-weight: bold;
-  color: #333; /* Adjust the color to match the theme */
+  color: #333;
+  height: 8rem;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & > :nth-child(1) {
+    & > span {
+      letter-spacing: 5px;
+    }
+  }
+  & > :nth-child(2) {
+    font-size: 3rem;
+    align-self: flex-end;
+    margin-left: 1rem;
+    letter-spacing: 2px;
+
+    & > span {
+      font-size: 5rem;
+    }
+  }
 `;
 
 const RightSection = styled.div`
@@ -223,9 +251,20 @@ function Navbar() {
         <NavButton>Contact Us</NavButton>
       </NavContainer>
       <NavbarBottom>
-        <Logo>MyCompany</Logo>
+        <Logo>
+          <div>
+            <span>Device</span>
+            <br />
+            <span>Health</span>
+            <br />
+            Book by
+          </div>{" "}
+          <div>
+            <span>R</span>epaireze
+          </div>
+        </Logo>
         <RightSection>
-          <TopItems>
+          {/* <TopItems>
             <TopItem>
               <FaUser />
               <span>Account</span>
@@ -242,7 +281,7 @@ function Navbar() {
               <FaShoppingCart />
               <span>Cart</span>
             </TopItems>
-          </TopItems>
+          </TopItems> */}
           <SearchBar type="text" placeholder="Search..." />
         </RightSection>
       </NavbarBottom>
