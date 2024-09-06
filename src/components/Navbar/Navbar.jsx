@@ -84,7 +84,8 @@ const NavButton = styled.button`
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
 
   &:hover {
     background-color: #5a3dbf;
@@ -248,7 +249,7 @@ function Navbar() {
             <Link to="/outlet">Save up to 60% on Outlet</Link>
           </NavItem>
         </NavItems>
-        <NavButton>Contact Us</NavButton>
+        <NavButton>SCHEDULE A SHOWROOM VISIT</NavButton>
       </NavContainer>
       <NavbarBottom>
         <Logo>
