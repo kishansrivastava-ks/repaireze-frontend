@@ -1,0 +1,502 @@
+[
+  {
+    "title": "Blog Title 1",
+    "date": "2023-08-05",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 1",
+    "content": "This is the content for Blog 1. It contains useful information and insights.",
+    "link": "/blogs/blog-1",
+    "type": "Tips",
+    "brand": "LG"
+  },
+  {
+    "title": "Blog Title 2",
+    "date": "2023-09-23",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 2",
+    "content": "This is the content for Blog 2. It contains useful information and insights.",
+    "link": "/blogs/blog-2",
+    "type": "Guide",
+    "brand": "Frigidaire"
+  },
+  {
+    "title": "Blog Title 3",
+    "date": "2023-11-25",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 3",
+    "content": "This is the content for Blog 3. It contains useful information and insights.",
+    "link": "/blogs/blog-3",
+    "type": "Guide",
+    "brand": "Frigidaire"
+  },
+  {
+    "title": "Blog Title 4",
+    "date": "2023-04-21",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 4",
+    "content": "This is the content for Blog 4. It contains useful information and insights.",
+    "link": "/blogs/blog-4",
+    "type": "Tips",
+    "brand": "Samsung"
+  },
+  {
+    "title": "Blog Title 5",
+    "date": "2023-11-03",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 5",
+    "content": "This is the content for Blog 5. It contains useful information and insights.",
+    "link": "/blogs/blog-5",
+    "type": "Comparison",
+    "brand": "GE"
+  },
+  {
+    "title": "Blog Title 6",
+    "date": "2023-08-30",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 6",
+    "content": "This is the content for Blog 6. It contains useful information and insights.",
+    "link": "/blogs/blog-6",
+    "type": "How-to",
+    "brand": "Samsung"
+  },
+  {
+    "title": "Blog Title 7",
+    "date": "2023-01-03",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 7",
+    "content": "This is the content for Blog 7. It contains useful information and insights.",
+    "link": "/blogs/blog-7",
+    "type": "Review",
+    "brand": "KitchenAid"
+  },
+  {
+    "title": "Blog Title 8",
+    "date": "2023-08-08",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 8",
+    "content": "This is the content for Blog 8. It contains useful information and insights.",
+    "link": "/blogs/blog-8",
+    "type": "Review",
+    "brand": "GE"
+  },
+  {
+    "title": "Blog Title 9",
+    "date": "2023-03-16",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 9",
+    "content": "This is the content for Blog 9. It contains useful information and insights.",
+    "link": "/blogs/blog-9",
+    "type": "Guide",
+    "brand": "LG"
+  },
+  {
+    "title": "Blog Title 10",
+    "date": "2023-10-22",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 10",
+    "content": "This is the content for Blog 10. It contains useful information and insights.",
+    "link": "/blogs/blog-10",
+    "type": "Comparison",
+    "brand": "LG"
+  },
+  {
+    "title": "Blog Title 11",
+    "date": "2023-09-23",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 11",
+    "content": "This is the content for Blog 11. It contains useful information and insights.",
+    "link": "/blogs/blog-11",
+    "type": "Tips",
+    "brand": "Whirlpool"
+  },
+  {
+    "title": "Blog Title 12",
+    "date": "2023-07-24",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 12",
+    "content": "This is the content for Blog 12. It contains useful information and insights.",
+    "link": "/blogs/blog-12",
+    "type": "Comparison",
+    "brand": "Viking"
+  },
+  {
+    "title": "Blog Title 13",
+    "date": "2023-05-05",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 13",
+    "content": "This is the content for Blog 13. It contains useful information and insights.",
+    "link": "/blogs/blog-13",
+    "type": "Comparison",
+    "brand": "Thermador"
+  },
+  {
+    "title": "Blog Title 14",
+    "date": "2023-11-27",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 14",
+    "content": "This is the content for Blog 14. It contains useful information and insights.",
+    "link": "/blogs/blog-14",
+    "type": "Review",
+    "brand": "Viking"
+  },
+  {
+    "title": "Blog Title 15",
+    "date": "2023-11-14",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 15",
+    "content": "This is the content for Blog 15. It contains useful information and insights.",
+    "link": "/blogs/blog-15",
+    "type": "Comparison",
+    "brand": "Viking"
+  },
+  {
+    "title": "Blog Title 16",
+    "date": "2023-10-30",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 16",
+    "content": "This is the content for Blog 16. It contains useful information and insights.",
+    "link": "/blogs/blog-16",
+    "type": "How-to",
+    "brand": "LG"
+  },
+  {
+    "title": "Blog Title 17",
+    "date": "2023-10-31",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 17",
+    "content": "This is the content for Blog 17. It contains useful information and insights.",
+    "link": "/blogs/blog-17",
+    "type": "How-to",
+    "brand": "Whirlpool"
+  },
+  {
+    "title": "Blog Title 18",
+    "date": "2023-07-24",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 18",
+    "content": "This is the content for Blog 18. It contains useful information and insights.",
+    "link": "/blogs/blog-18",
+    "type": "How-to",
+    "brand": "Samsung"
+  },
+  {
+    "title": "Blog Title 19",
+    "date": "2023-05-24",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 19",
+    "content": "This is the content for Blog 19. It contains useful information and insights.",
+    "link": "/blogs/blog-19",
+    "type": "How-to",
+    "brand": "KitchenAid"
+  },
+  {
+    "title": "Blog Title 20",
+    "date": "2023-10-23",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 20",
+    "content": "This is the content for Blog 20. It contains useful information and insights.",
+    "link": "/blogs/blog-20",
+    "type": "Tips",
+    "brand": "Frigidaire"
+  },
+  {
+    "title": "Blog Title 21",
+    "date": "2023-01-08",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 21",
+    "content": "This is the content for Blog 21. It contains useful information and insights.",
+    "link": "/blogs/blog-21",
+    "type": "How-to",
+    "brand": "Frigidaire"
+  },
+  {
+    "title": "Blog Title 22",
+    "date": "2023-02-19",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 22",
+    "content": "This is the content for Blog 22. It contains useful information and insights.",
+    "link": "/blogs/blog-22",
+    "type": "How-to",
+    "brand": "LG"
+  },
+  {
+    "title": "Blog Title 23",
+    "date": "2023-03-23",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 23",
+    "content": "This is the content for Blog 23. It contains useful information and insights.",
+    "link": "/blogs/blog-23",
+    "type": "How-to",
+    "brand": "GE"
+  },
+  {
+    "title": "Blog Title 24",
+    "date": "2023-06-15",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 24",
+    "content": "This is the content for Blog 24. It contains useful information and insights.",
+    "link": "/blogs/blog-24",
+    "type": "Tips",
+    "brand": "GE"
+  },
+  {
+    "title": "Blog Title 25",
+    "date": "2023-04-03",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 25",
+    "content": "This is the content for Blog 25. It contains useful information and insights.",
+    "link": "/blogs/blog-25",
+    "type": "Tips",
+    "brand": "Thermador"
+  },
+  {
+    "title": "Blog Title 26",
+    "date": "2023-09-08",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 26",
+    "content": "This is the content for Blog 26. It contains useful information and insights.",
+    "link": "/blogs/blog-26",
+    "type": "Guide",
+    "brand": "Viking"
+  },
+  {
+    "title": "Blog Title 27",
+    "date": "2023-03-11",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 27",
+    "content": "This is the content for Blog 27. It contains useful information and insights.",
+    "link": "/blogs/blog-27",
+    "type": "Comparison",
+    "brand": "Bosch"
+  },
+  {
+    "title": "Blog Title 28",
+    "date": "2023-08-01",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 28",
+    "content": "This is the content for Blog 28. It contains useful information and insights.",
+    "link": "/blogs/blog-28",
+    "type": "Tips",
+    "brand": "KitchenAid"
+  },
+  {
+    "title": "Blog Title 29",
+    "date": "2023-01-09",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 29",
+    "content": "This is the content for Blog 29. It contains useful information and insights.",
+    "link": "/blogs/blog-29",
+    "type": "Comparison",
+    "brand": "Frigidaire"
+  },
+  {
+    "title": "Blog Title 30",
+    "date": "2023-09-06",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 30",
+    "content": "This is the content for Blog 30. It contains useful information and insights.",
+    "link": "/blogs/blog-30",
+    "type": "Tips",
+    "brand": "Samsung"
+  },
+  {
+    "title": "Blog Title 31",
+    "date": "2023-10-19",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 31",
+    "content": "This is the content for Blog 31. It contains useful information and insights.",
+    "link": "/blogs/blog-31",
+    "type": "Guide",
+    "brand": "Miele"
+  },
+  {
+    "title": "Blog Title 32",
+    "date": "2023-06-26",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 32",
+    "content": "This is the content for Blog 32. It contains useful information and insights.",
+    "link": "/blogs/blog-32",
+    "type": "Review",
+    "brand": "Frigidaire"
+  },
+  {
+    "title": "Blog Title 33",
+    "date": "2023-06-18",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 33",
+    "content": "This is the content for Blog 33. It contains useful information and insights.",
+    "link": "/blogs/blog-33",
+    "type": "Comparison",
+    "brand": "Thermador"
+  },
+  {
+    "title": "Blog Title 34",
+    "date": "2023-04-08",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 34",
+    "content": "This is the content for Blog 34. It contains useful information and insights.",
+    "link": "/blogs/blog-34",
+    "type": "Tips",
+    "brand": "Whirlpool"
+  },
+  {
+    "title": "Blog Title 35",
+    "date": "2023-06-13",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 35",
+    "content": "This is the content for Blog 35. It contains useful information and insights.",
+    "link": "/blogs/blog-35",
+    "type": "Comparison",
+    "brand": "LG"
+  },
+  {
+    "title": "Blog Title 36",
+    "date": "2023-09-26",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 36",
+    "content": "This is the content for Blog 36. It contains useful information and insights.",
+    "link": "/blogs/blog-36",
+    "type": "Review",
+    "brand": "KitchenAid"
+  },
+  {
+    "title": "Blog Title 37",
+    "date": "2023-03-21",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 37",
+    "content": "This is the content for Blog 37. It contains useful information and insights.",
+    "link": "/blogs/blog-37",
+    "type": "Tips",
+    "brand": "KitchenAid"
+  },
+  {
+    "title": "Blog Title 38",
+    "date": "2023-07-16",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 38",
+    "content": "This is the content for Blog 38. It contains useful information and insights.",
+    "link": "/blogs/blog-38",
+    "type": "Review",
+    "brand": "GE"
+  },
+  {
+    "title": "Blog Title 39",
+    "date": "2023-08-14",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 39",
+    "content": "This is the content for Blog 39. It contains useful information and insights.",
+    "link": "/blogs/blog-39",
+    "type": "Review",
+    "brand": "Miele"
+  },
+  {
+    "title": "Blog Title 40",
+    "date": "2023-06-12",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 40",
+    "content": "This is the content for Blog 40. It contains useful information and insights.",
+    "link": "/blogs/blog-40",
+    "type": "Comparison",
+    "brand": "Bosch"
+  },
+  {
+    "title": "Blog Title 41",
+    "date": "2023-11-05",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 41",
+    "content": "This is the content for Blog 41. It contains useful information and insights.",
+    "link": "/blogs/blog-41",
+    "type": "Guide",
+    "brand": "Thermador"
+  },
+  {
+    "title": "Blog Title 42",
+    "date": "2023-04-01",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 42",
+    "content": "This is the content for Blog 42. It contains useful information and insights.",
+    "link": "/blogs/blog-42",
+    "type": "Review",
+    "brand": "Thermador"
+  },
+  {
+    "title": "Blog Title 43",
+    "date": "2023-08-14",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 43",
+    "content": "This is the content for Blog 43. It contains useful information and insights.",
+    "link": "/blogs/blog-43",
+    "type": "Comparison",
+    "brand": "Thermador"
+  },
+  {
+    "title": "Blog Title 44",
+    "date": "2023-09-25",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 44",
+    "content": "This is the content for Blog 44. It contains useful information and insights.",
+    "link": "/blogs/blog-44",
+    "type": "Guide",
+    "brand": "KitchenAid"
+  },
+  {
+    "title": "Blog Title 45",
+    "date": "2023-11-26",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 45",
+    "content": "This is the content for Blog 45. It contains useful information and insights.",
+    "link": "/blogs/blog-45",
+    "type": "Tips",
+    "brand": "Frigidaire"
+  },
+  {
+    "title": "Blog Title 46",
+    "date": "2023-12-19",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 46",
+    "content": "This is the content for Blog 46. It contains useful information and insights.",
+    "link": "/blogs/blog-46",
+    "type": "Comparison",
+    "brand": "KitchenAid"
+  },
+  {
+    "title": "Blog Title 47",
+    "date": "2023-10-03",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 47",
+    "content": "This is the content for Blog 47. It contains useful information and insights.",
+    "link": "/blogs/blog-47",
+    "type": "Comparison",
+    "brand": "LG"
+  },
+  {
+    "title": "Blog Title 48",
+    "date": "2023-06-16",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 48",
+    "content": "This is the content for Blog 48. It contains useful information and insights.",
+    "link": "/blogs/blog-48",
+    "type": "Guide",
+    "brand": "LG"
+  },
+  {
+    "title": "Blog Title 49",
+    "date": "2023-12-16",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 49",
+    "content": "This is the content for Blog 49. It contains useful information and insights.",
+    "link": "/blogs/blog-49",
+    "type": "Review",
+    "brand": "Viking"
+  },
+  {
+    "title": "Blog Title 50",
+    "date": "2023-08-20",
+    "thumbnail": "/kitchen2.png",
+    "subtitle": "Subtitle for Blog 50",
+    "content": "This is the content for Blog 50. It contains useful information and insights.",
+    "link": "/blogs/blog-50",
+    "type": "Guide",
+    "brand": "Thermador"
+  }
+]
