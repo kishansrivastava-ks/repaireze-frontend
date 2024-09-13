@@ -6,6 +6,7 @@ import DeliveryPolicy from "./pages/DeliveryPolicy";
 import Financing from "./pages/Financing";
 import Outlet from "./pages/Outlet";
 import { Toaster } from "react-hot-toast";
+import LearningCenter from "./pages/Navigation/LearningCenter";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="delivery-policy" element={<DeliveryPolicy />} />
             <Route path="financing" element={<Financing />} />
             <Route path="outlet" element={<Outlet />} />
+            <Route path="learning-center" element={<LearningCenter />} />
           </Route>
         </Routes>
       </BrowserRouter>

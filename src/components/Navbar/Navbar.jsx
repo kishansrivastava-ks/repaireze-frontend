@@ -197,7 +197,7 @@ const NavLinksStrip = styled.div`
   }
 `;
 
-const NavLinkItem = styled.a`
+const NavLinkItem = styled(Link)`
   padding: 0.5rem 1rem;
   color: #333;
   text-decoration: none;
@@ -287,18 +287,18 @@ function Navbar() {
         </RightSection>
       </NavbarBottom>
       <NavLinksStrip>
-        <NavLinkItem href="#home">Refrigeration</NavLinkItem>
-        <NavLinkItem href="#about">Dishwashers</NavLinkItem>
-        <NavLinkItem href="#services">Laundry</NavLinkItem>
-        <NavLinkItem href="#products">Cooking</NavLinkItem>
-        <NavLinkItem href="#blog">Range Hoods</NavLinkItem>
-        <NavLinkItem href="#careers">Outdoor Kitchen</NavLinkItem>
-        <NavLinkItem href="#contact">Sinks & Faucets</NavLinkItem>
-        <NavLinkItem href="#faq">Packages</NavLinkItem>
-        <NavLinkItem href="#testimonials">Outlet</NavLinkItem>
-        <NavLinkItem href="#portfolio">Builders</NavLinkItem>
-        <NavLinkItem href="#news">Learning Center</NavLinkItem>
-        <NavLinkItem href="#support">Rebate Center</NavLinkItem>
+        <NavLinkItem to="#home">Refrigeration</NavLinkItem>
+        <NavLinkItem to="#about">Dishwashers</NavLinkItem>
+        <NavLinkItem to="#services">Laundry</NavLinkItem>
+        <NavLinkItem to="#products">Cooking</NavLinkItem>
+        <NavLinkItem to="#blog">Range Hoods</NavLinkItem>
+        <NavLinkItem to="#careers">Outdoor Kitchen</NavLinkItem>
+        <NavLinkItem to="#contact">Sinks & Faucets</NavLinkItem>
+        <NavLinkItem to="#faq">Packages</NavLinkItem>
+        <NavLinkItem to="#testimonials">Outlet</NavLinkItem>
+        <NavLinkItem to="#portfolio">Builders</NavLinkItem>
+        <NavLinkItem to="/learning-center">Learning Center</NavLinkItem>
+        <NavLinkItem to="#support">Rebate Center</NavLinkItem>
       </NavLinksStrip>
     </>
   );
