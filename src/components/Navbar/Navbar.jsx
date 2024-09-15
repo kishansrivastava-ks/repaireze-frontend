@@ -188,6 +188,7 @@ const SearchBar = styled.input`
 const NavLinksStrip = styled.div`
   display: flex;
   justify-content: space-between;
+  justify-content: flex-end;
   padding: 0.5rem 2rem;
   background-color: #f0f0f0; /* Adjust the color to match the theme */
 
@@ -204,26 +205,29 @@ const NavLinkItem = styled(Link)`
   font-weight: 500;
   transition: all 0.3s ease;
   position: relative;
+  background-color: #7d5fff;
+  color: #fff;
+  border-radius: 3px;
 
   &:hover {
-    color: #7d5fff;
-    border-bottom: 2px solid #7d5fff;
+    /* color: #7d5fff; */
+    /* border-bottom: 2px solid #7d5fff; */
+    background-color: #4118f8;
 
-    &::before {
+    /* &::before {
       content: "";
       position: absolute;
       width: 100%;
       height: 2px;
-      background-color: #7d5fff;
       bottom: -2px;
       left: 0;
       transform: scaleX(0);
       transition: transform 0.3s ease;
-    }
+    } */
 
-    &::before {
+    /* &::before {
       transform: scaleX(1);
-    }
+    } */
   }
 
   @media (max-width: 768px) {
@@ -287,7 +291,7 @@ function Navbar() {
         </RightSection>
       </NavbarBottom>
       <NavLinksStrip>
-        <NavLinkItem to="#home">Refrigeration</NavLinkItem>
+        {/* <NavLinkItem to="#home">Refrigeration</NavLinkItem>
         <NavLinkItem to="#about">Dishwashers</NavLinkItem>
         <NavLinkItem to="#services">Laundry</NavLinkItem>
         <NavLinkItem to="#products">Cooking</NavLinkItem>
@@ -296,9 +300,9 @@ function Navbar() {
         <NavLinkItem to="#contact">Sinks & Faucets</NavLinkItem>
         <NavLinkItem to="#faq">Packages</NavLinkItem>
         <NavLinkItem to="#testimonials">Outlet</NavLinkItem>
-        <NavLinkItem to="#portfolio">Builders</NavLinkItem>
+        <NavLinkItem to="#portfolio">Builders</NavLinkItem> */}
         <NavLinkItem to="/learning-center">Learning Center</NavLinkItem>
-        <NavLinkItem to="#support">Rebate Center</NavLinkItem>
+        {/* <NavLinkItem to="#support">Rebate Center</NavLinkItem> */}
       </NavLinksStrip>
     </>
   );
