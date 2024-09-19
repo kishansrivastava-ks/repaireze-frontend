@@ -5,7 +5,7 @@ const InfoSection = () => {
     <SectionContainer>
       <Overlay />
       <Content>
-        <Subheading>APPLIANCE SHOPPING MADE EASY</Subheading>
+        <Subheading>APPLIANCE GUIDANCE MADE EASY</Subheading>
         <MainHeading>Learning Center</MainHeading>
         <Description>
           Learn before you buy for every appliance including in-depth brand

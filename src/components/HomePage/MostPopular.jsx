@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styled from "styled-components";
 
 // Container for the entire section
@@ -232,14 +233,14 @@ function MostPopular() {
           <ControlButton>&gt;</ControlButton>
         </SliderContainer>
       </LeftColumn>
-      <RightColumn>
+      {/* <RightColumn>
         <BannerHeading>Product Spotlight</BannerHeading>
         <BannerImage src="/kitchen.jpg" alt="Product Spotlight" />
         <BannerText>Product Name</BannerText>
         <BannerText>$350</BannerText>
         <BannerText>Short product description goes here.</BannerText>
         <LearnMoreButton>Learn More</LearnMoreButton>
-      </RightColumn>
+      </RightColumn> */}
     </MostPopularContainer>
   );
 }

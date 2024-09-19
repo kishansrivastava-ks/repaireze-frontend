@@ -126,12 +126,12 @@ const ShowroomButton = styled.button`
 function Showrooms() {
   return (
     <ShowroomsSection>
-      <h2>Looking For A Customized Personal Experience?</h2>
+      <h2>Looking For A Customized Personal Guide?</h2>
       <p>
         Schedule a visit with a Yale team member to truly understand all your
         options.
       </p>
-      <button>SCHEDULE A SHOWROOM VISIT</button>
+      <button>SCHEDULE A CALL WITH REPAIREZE MEMBER</button>
 
       <ShowroomCards>
         {["Boston", "Cambridge", "Worcester", "Providence"].map((city) => (

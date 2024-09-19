@@ -257,16 +257,16 @@ function Navbar() {
       </NavContainer>
       <NavbarBottom>
         <Logo>
-          <div>
+          <Link to="/">
             <span>Device</span>
             <br />
             <span>Health</span>
             <br />
             Book by
-          </div>{" "}
-          <div>
+          </Link>{" "}
+          <Link to="/">
             <span>R</span>epaireze
-          </div>
+          </Link>
         </Logo>
         <RightSection>
           {/* <TopItems>

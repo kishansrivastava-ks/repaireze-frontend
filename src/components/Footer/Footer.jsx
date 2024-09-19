@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styled from "styled-components";
 
 const FooterLinks = styled.footer`
@@ -208,7 +209,7 @@ function Footer() {
             </ul>
           </FooterColumn>
           <FooterColumn>
-            <h3>Yale Services</h3>
+            <h3>Services</h3>
             <ul>
               <li>
                 <a href="#service">Service</a>
@@ -231,29 +232,25 @@ function Footer() {
                 <a href="#blog">Blog</a>
               </li>
               <li>
-                <a href="#learning-center">Learning Center</a>
+                <a href="/learning-center">Learning Center</a>
               </li>
               <li>
                 <a href="#about-us">About Us</a>
               </li>
               <li>
-                <a href="#yale-foundation">Yale Foundation</a>
+                <a href="#yale-foundation">Repaireze Foundation</a>
               </li>
               <li>
-                <a href="#yale-rewards">Yale Appliance Rewards</a>
+                {/* <a href="#yale-rewards">Repaireze Appliance Rewards</a> */}
               </li>
-              <li>
-                <a href="#builders">Builders</a>
-              </li>
+              <li>{/* <a href="#builders">Builders</a> */}</li>
               <li>
                 <a href="#careers">Careers</a>
               </li>
               <li>
                 <a href="#warranty">Warranty</a>
               </li>
-              <li>
-                <a href="#price-guarantee">Price Guarantee</a>
-              </li>
+              <li>{/* <a href="#price-guarantee">Price Guarantee</a> */}</li>
               <li>
                 <a href="#return-policies">Return & Store Policies</a>
               </li>
@@ -268,7 +265,7 @@ function Footer() {
               </li>
             </ul>
           </FooterColumn>
-          <FooterColumn>
+          {/* <FooterColumn>
             <h3>Locations</h3>
             <ul>
               <li>
@@ -292,12 +289,12 @@ function Footer() {
                 </a>
               </li>
             </ul>
-          </FooterColumn>
+          </FooterColumn> */}
         </FooterContent>
       </FooterLinks>
 
       <FooterLogosContainer>
-        <LogosList>
+        {/* <LogosList>
           <img src="/logo.png" alt="Logo 1" />
           <img src="/logo.png" alt="Logo 2" />
           <img src="/logo.png" alt="Logo 3" />
@@ -306,9 +303,9 @@ function Footer() {
           <img src="/logo.png" alt="Logo 6" />
           <img src="/logo.png" alt="Logo 7" />
           <img src="/logo.png" alt="Logo 8" />
-        </LogosList>
+        </LogosList> */}
 
-        <FooterText>YALE APPLIANCE © 2024</FooterText>
+        <FooterText>REPAIREZE © 2024</FooterText>
 
         <LinksList>
           <a href="#terms">Terms & Conditions</a>

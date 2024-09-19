@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styled from "styled-components";
 import {
   FaGoogle,
@@ -39,7 +40,7 @@ const Section1 = styled.div`
 `;
 
 const LeftColumn = styled.div`
-  width: 70%;
+  width: 100%;
   position: relative;
 
   @media (max-width: 768px) {
@@ -328,16 +329,16 @@ function Home() {
         <LeftColumn>
           <ImageContainer>
             <TiltedStrip>Since 1923</TiltedStrip>
-            <Title>Appliance Shopping made easy</Title>
+            <Title>Appliance Guidance Made Easy</Title>
             <SubTitle>Sales | Service | Installation</SubTitle>
-            <Button>Schedule showroom visit</Button>
+            <Button>Schedule a call</Button>
             <RatingContainer>
               <FaGoogle />
               <span>4.8 out of 5 | 8133 reviews</span>
             </RatingContainer>
           </ImageContainer>
         </LeftColumn>
-        <RightColumn>
+        {/* <RightColumn>
           <Box>
             <LinkItem href="#account">
               <div>
@@ -384,7 +385,7 @@ function Home() {
               <span>&rarr;</span>
             </LinkItem>
           </Box>
-        </RightColumn>
+        </RightColumn> */}
       </Section1>
       <Section2>
         <Item>
@@ -456,7 +457,7 @@ function Home() {
       </GuideContainer>
       <MostPopular />
       <NextDayDelivery />
-      <OurBrands />
+      {/* <OurBrands /> */}
       <Showrooms />
       <UnlockGuide />
     </Container>

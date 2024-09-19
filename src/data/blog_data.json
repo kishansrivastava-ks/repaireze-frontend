@@ -6,7 +6,7 @@
     "subtitle": "Subtitle for Blog 1",
     "content": "This is the content for Blog 1. It contains useful information and insights.",
     "link": "/blogs/blog-1",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "LG"
   },
   {
@@ -16,7 +16,7 @@
     "subtitle": "Subtitle for Blog 2",
     "content": "This is the content for Blog 2. It contains useful information and insights.",
     "link": "/blogs/blog-2",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "Frigidaire"
   },
   {
@@ -26,7 +26,7 @@
     "subtitle": "Subtitle for Blog 3",
     "content": "This is the content for Blog 3. It contains useful information and insights.",
     "link": "/blogs/blog-3",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "Frigidaire"
   },
   {
@@ -36,7 +36,7 @@
     "subtitle": "Subtitle for Blog 4",
     "content": "This is the content for Blog 4. It contains useful information and insights.",
     "link": "/blogs/blog-4",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "Samsung"
   },
   {
@@ -46,7 +46,7 @@
     "subtitle": "Subtitle for Blog 5",
     "content": "This is the content for Blog 5. It contains useful information and insights.",
     "link": "/blogs/blog-5",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "GE"
   },
   {
@@ -56,7 +56,7 @@
     "subtitle": "Subtitle for Blog 6",
     "content": "This is the content for Blog 6. It contains useful information and insights.",
     "link": "/blogs/blog-6",
-    "type": "How-to",
+    "type": "Air Conditioner",
     "brand": "Samsung"
   },
   {
@@ -66,7 +66,7 @@
     "subtitle": "Subtitle for Blog 7",
     "content": "This is the content for Blog 7. It contains useful information and insights.",
     "link": "/blogs/blog-7",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "KitchenAid"
   },
   {
@@ -76,7 +76,7 @@
     "subtitle": "Subtitle for Blog 8",
     "content": "This is the content for Blog 8. It contains useful information and insights.",
     "link": "/blogs/blog-8",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "GE"
   },
   {
@@ -86,7 +86,7 @@
     "subtitle": "Subtitle for Blog 9",
     "content": "This is the content for Blog 9. It contains useful information and insights.",
     "link": "/blogs/blog-9",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "LG"
   },
   {
@@ -96,7 +96,7 @@
     "subtitle": "Subtitle for Blog 10",
     "content": "This is the content for Blog 10. It contains useful information and insights.",
     "link": "/blogs/blog-10",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "LG"
   },
   {
@@ -106,7 +106,7 @@
     "subtitle": "Subtitle for Blog 11",
     "content": "This is the content for Blog 11. It contains useful information and insights.",
     "link": "/blogs/blog-11",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "Whirlpool"
   },
   {
@@ -116,7 +116,7 @@
     "subtitle": "Subtitle for Blog 12",
     "content": "This is the content for Blog 12. It contains useful information and insights.",
     "link": "/blogs/blog-12",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "Viking"
   },
   {
@@ -126,7 +126,7 @@
     "subtitle": "Subtitle for Blog 13",
     "content": "This is the content for Blog 13. It contains useful information and insights.",
     "link": "/blogs/blog-13",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "Thermador"
   },
   {
@@ -136,7 +136,7 @@
     "subtitle": "Subtitle for Blog 14",
     "content": "This is the content for Blog 14. It contains useful information and insights.",
     "link": "/blogs/blog-14",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "Viking"
   },
   {
@@ -146,7 +146,7 @@
     "subtitle": "Subtitle for Blog 15",
     "content": "This is the content for Blog 15. It contains useful information and insights.",
     "link": "/blogs/blog-15",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "Viking"
   },
   {
@@ -156,7 +156,7 @@
     "subtitle": "Subtitle for Blog 16",
     "content": "This is the content for Blog 16. It contains useful information and insights.",
     "link": "/blogs/blog-16",
-    "type": "How-to",
+    "type": "Air Conditioner",
     "brand": "LG"
   },
   {
@@ -166,7 +166,7 @@
     "subtitle": "Subtitle for Blog 17",
     "content": "This is the content for Blog 17. It contains useful information and insights.",
     "link": "/blogs/blog-17",
-    "type": "How-to",
+    "type": "Air Conditioner",
     "brand": "Whirlpool"
   },
   {
@@ -176,7 +176,7 @@
     "subtitle": "Subtitle for Blog 18",
     "content": "This is the content for Blog 18. It contains useful information and insights.",
     "link": "/blogs/blog-18",
-    "type": "How-to",
+    "type": "Air Conditioner",
     "brand": "Samsung"
   },
   {
@@ -186,7 +186,7 @@
     "subtitle": "Subtitle for Blog 19",
     "content": "This is the content for Blog 19. It contains useful information and insights.",
     "link": "/blogs/blog-19",
-    "type": "How-to",
+    "type": "Air Conditioner",
     "brand": "KitchenAid"
   },
   {
@@ -196,7 +196,7 @@
     "subtitle": "Subtitle for Blog 20",
     "content": "This is the content for Blog 20. It contains useful information and insights.",
     "link": "/blogs/blog-20",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "Frigidaire"
   },
   {
@@ -206,7 +206,7 @@
     "subtitle": "Subtitle for Blog 21",
     "content": "This is the content for Blog 21. It contains useful information and insights.",
     "link": "/blogs/blog-21",
-    "type": "How-to",
+    "type": "Air Conditioner",
     "brand": "Frigidaire"
   },
   {
@@ -216,7 +216,7 @@
     "subtitle": "Subtitle for Blog 22",
     "content": "This is the content for Blog 22. It contains useful information and insights.",
     "link": "/blogs/blog-22",
-    "type": "How-to",
+    "type": "Air Conditioner",
     "brand": "LG"
   },
   {
@@ -226,7 +226,7 @@
     "subtitle": "Subtitle for Blog 23",
     "content": "This is the content for Blog 23. It contains useful information and insights.",
     "link": "/blogs/blog-23",
-    "type": "How-to",
+    "type": "Air Conditioner",
     "brand": "GE"
   },
   {
@@ -236,7 +236,7 @@
     "subtitle": "Subtitle for Blog 24",
     "content": "This is the content for Blog 24. It contains useful information and insights.",
     "link": "/blogs/blog-24",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "GE"
   },
   {
@@ -246,7 +246,7 @@
     "subtitle": "Subtitle for Blog 25",
     "content": "This is the content for Blog 25. It contains useful information and insights.",
     "link": "/blogs/blog-25",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "Thermador"
   },
   {
@@ -256,7 +256,7 @@
     "subtitle": "Subtitle for Blog 26",
     "content": "This is the content for Blog 26. It contains useful information and insights.",
     "link": "/blogs/blog-26",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "Viking"
   },
   {
@@ -266,7 +266,7 @@
     "subtitle": "Subtitle for Blog 27",
     "content": "This is the content for Blog 27. It contains useful information and insights.",
     "link": "/blogs/blog-27",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "Bosch"
   },
   {
@@ -276,7 +276,7 @@
     "subtitle": "Subtitle for Blog 28",
     "content": "This is the content for Blog 28. It contains useful information and insights.",
     "link": "/blogs/blog-28",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "KitchenAid"
   },
   {
@@ -286,7 +286,7 @@
     "subtitle": "Subtitle for Blog 29",
     "content": "This is the content for Blog 29. It contains useful information and insights.",
     "link": "/blogs/blog-29",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "Frigidaire"
   },
   {
@@ -296,7 +296,7 @@
     "subtitle": "Subtitle for Blog 30",
     "content": "This is the content for Blog 30. It contains useful information and insights.",
     "link": "/blogs/blog-30",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "Samsung"
   },
   {
@@ -306,7 +306,7 @@
     "subtitle": "Subtitle for Blog 31",
     "content": "This is the content for Blog 31. It contains useful information and insights.",
     "link": "/blogs/blog-31",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "Miele"
   },
   {
@@ -316,7 +316,7 @@
     "subtitle": "Subtitle for Blog 32",
     "content": "This is the content for Blog 32. It contains useful information and insights.",
     "link": "/blogs/blog-32",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "Frigidaire"
   },
   {
@@ -326,7 +326,7 @@
     "subtitle": "Subtitle for Blog 33",
     "content": "This is the content for Blog 33. It contains useful information and insights.",
     "link": "/blogs/blog-33",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "Thermador"
   },
   {
@@ -336,7 +336,7 @@
     "subtitle": "Subtitle for Blog 34",
     "content": "This is the content for Blog 34. It contains useful information and insights.",
     "link": "/blogs/blog-34",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "Whirlpool"
   },
   {
@@ -346,7 +346,7 @@
     "subtitle": "Subtitle for Blog 35",
     "content": "This is the content for Blog 35. It contains useful information and insights.",
     "link": "/blogs/blog-35",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "LG"
   },
   {
@@ -356,7 +356,7 @@
     "subtitle": "Subtitle for Blog 36",
     "content": "This is the content for Blog 36. It contains useful information and insights.",
     "link": "/blogs/blog-36",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "KitchenAid"
   },
   {
@@ -366,7 +366,7 @@
     "subtitle": "Subtitle for Blog 37",
     "content": "This is the content for Blog 37. It contains useful information and insights.",
     "link": "/blogs/blog-37",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "KitchenAid"
   },
   {
@@ -376,7 +376,7 @@
     "subtitle": "Subtitle for Blog 38",
     "content": "This is the content for Blog 38. It contains useful information and insights.",
     "link": "/blogs/blog-38",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "GE"
   },
   {
@@ -386,7 +386,7 @@
     "subtitle": "Subtitle for Blog 39",
     "content": "This is the content for Blog 39. It contains useful information and insights.",
     "link": "/blogs/blog-39",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "Miele"
   },
   {
@@ -396,7 +396,7 @@
     "subtitle": "Subtitle for Blog 40",
     "content": "This is the content for Blog 40. It contains useful information and insights.",
     "link": "/blogs/blog-40",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "Bosch"
   },
   {
@@ -406,7 +406,7 @@
     "subtitle": "Subtitle for Blog 41",
     "content": "This is the content for Blog 41. It contains useful information and insights.",
     "link": "/blogs/blog-41",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "Thermador"
   },
   {
@@ -416,7 +416,7 @@
     "subtitle": "Subtitle for Blog 42",
     "content": "This is the content for Blog 42. It contains useful information and insights.",
     "link": "/blogs/blog-42",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "Thermador"
   },
   {
@@ -426,7 +426,7 @@
     "subtitle": "Subtitle for Blog 43",
     "content": "This is the content for Blog 43. It contains useful information and insights.",
     "link": "/blogs/blog-43",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "Thermador"
   },
   {
@@ -436,7 +436,7 @@
     "subtitle": "Subtitle for Blog 44",
     "content": "This is the content for Blog 44. It contains useful information and insights.",
     "link": "/blogs/blog-44",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "KitchenAid"
   },
   {
@@ -446,7 +446,7 @@
     "subtitle": "Subtitle for Blog 45",
     "content": "This is the content for Blog 45. It contains useful information and insights.",
     "link": "/blogs/blog-45",
-    "type": "Tips",
+    "type": "Refrigerator",
     "brand": "Frigidaire"
   },
   {
@@ -456,7 +456,7 @@
     "subtitle": "Subtitle for Blog 46",
     "content": "This is the content for Blog 46. It contains useful information and insights.",
     "link": "/blogs/blog-46",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "KitchenAid"
   },
   {
@@ -466,7 +466,7 @@
     "subtitle": "Subtitle for Blog 47",
     "content": "This is the content for Blog 47. It contains useful information and insights.",
     "link": "/blogs/blog-47",
-    "type": "Comparison",
+    "type": "Fans",
     "brand": "LG"
   },
   {
@@ -476,7 +476,7 @@
     "subtitle": "Subtitle for Blog 48",
     "content": "This is the content for Blog 48. It contains useful information and insights.",
     "link": "/blogs/blog-48",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "LG"
   },
   {
@@ -486,7 +486,7 @@
     "subtitle": "Subtitle for Blog 49",
     "content": "This is the content for Blog 49. It contains useful information and insights.",
     "link": "/blogs/blog-49",
-    "type": "Review",
+    "type": "Mobile Phones",
     "brand": "Viking"
   },
   {
@@ -496,7 +496,7 @@
     "subtitle": "Subtitle for Blog 50",
     "content": "This is the content for Blog 50. It contains useful information and insights.",
     "link": "/blogs/blog-50",
-    "type": "Guide",
+    "type": "Washing Machine",
     "brand": "Thermador"
   }
 ]

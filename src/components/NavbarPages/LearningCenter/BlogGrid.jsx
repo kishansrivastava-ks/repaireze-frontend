@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import styled from "styled-components";
 // import blogData from "./blog_data.json";
@@ -65,7 +66,7 @@ const BlogGridWithFilter = () => {
           onChange={handleSearch}
         />
         <FilterSection>
-          <FilterHeading>Filter By Type</FilterHeading>
+          <FilterHeading>Filter By Device Type</FilterHeading>
           {uniqueTypes.map((type) => (
             <FilterCheckbox key={type}>
               <input
@@ -78,7 +79,8 @@ const BlogGridWithFilter = () => {
           ))}
         </FilterSection>
 
-        <FilterSection>
+        {/* 🔴 FILTER BY BRAND */}
+        {/* <FilterSection>
           <FilterHeading>Filter By Brand</FilterHeading>
           {uniqueBrands.map((brand) => (
             <FilterCheckbox key={brand}>
@@ -90,7 +92,7 @@ const BlogGridWithFilter = () => {
               {brand}
             </FilterCheckbox>
           ))}
-        </FilterSection>
+        </FilterSection> */}
       </LeftColumn>
 
       <RightColumn>
