@@ -8,9 +8,9 @@ const NextDayDeliveryContainer = styled.div`
   background: linear-gradient(to right, #002e5d, #004b8e);
   color: white;
   padding: 1.5rem;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 70vw;
+  width: 80vw;
   margin: 5rem auto;
   height: 20vh;
 
@@ -23,17 +23,18 @@ const NextDayDeliveryContainer = styled.div`
 
 const HeadingColumn = styled.div`
   flex: 1;
-  padding-right: 1rem;
+  padding-right: 2rem;
+  min-width: max-content;
 
   h2 {
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     line-height: 1.2;
   }
 
   p {
     margin: 0;
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
 
   @media (max-width: 768px) {
@@ -53,7 +54,9 @@ const ButtonColumn = styled.div`
     color: #002e5d;
     font-weight: bold;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 2rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -70,7 +73,8 @@ const ButtonColumn = styled.div`
 
 const TextColumn = styled.div`
   flex: 2;
-  font-size: 1rem;
+  font-size: 2rem;
+  text-align: center;
   padding-right: 1rem;
 
   @media (max-width: 768px) {
@@ -114,7 +118,10 @@ function NextDayDelivery() {
         <p>In-stock products ready for delivery</p>
       </HeadingColumn>
       <ButtonColumn>
-        <button>Need it fast? Shop now!</button>
+        <button>
+          Need it fast? <br />
+          Shop now!
+        </button>
       </ButtonColumn>
       <TextColumn>
         We guarantee next-day delivery on in‑stock products.

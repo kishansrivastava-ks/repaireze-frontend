@@ -5,25 +5,32 @@ const ShowroomsSection = styled.section`
   text-align: center;
   padding: 2rem 1rem;
   background-color: #f9f9f9;
+  width: 100%;
 
   h2 {
     color: #004080;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     font-weight: bold;
     margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
   }
 
   p {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin-bottom: 1.5rem;
+    letter-spacing: 1px;
   }
 
   button {
     padding: 0.75rem 2rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
     color: white;
     background-color: #004080;
     border: none;
+    border-radius: 24px;
+
     cursor: pointer;
     transition: background-color 0.3s ease;
     &:hover {

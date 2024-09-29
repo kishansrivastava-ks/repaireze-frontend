@@ -66,6 +66,7 @@ const ImageContainer = styled.div`
   background-size: cover;
   background-position: center;
   height: 400px; /* Adjust height as needed */
+  overflow: hidden;
 
   @media (max-width: 768px) {
     height: 300px;
@@ -74,22 +75,29 @@ const ImageContainer = styled.div`
 
 const TiltedStrip = styled.div`
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 10px;
+  left: -5px;
   background-color: #7d5fff;
   color: white;
   padding: 0.5rem 1rem;
   transform: rotate(-15deg);
   font-weight: bold;
+  width: 150px;
+  text-align: center;
 `;
 
 const Title = styled.h1`
   position: absolute;
   top: 50%;
   left: 20px;
-  transform: translateY(-50%);
-  color: white;
-  font-size: 2rem;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color: #000000;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  background-color: rgba(0, 179, 255, 0.5);
+  padding: 1.5rem 2rem;
+  border-radius: 50px;
 
   @media (max-width: 768px) {
     font-size: 1.5rem;
@@ -102,6 +110,9 @@ const SubTitle = styled.h2`
   left: 20px;
   color: white;
   font-size: 1.25rem;
+  color: #000;
+  font-size: large;
+  letter-spacing: 1px;
 `;
 
 const Button = styled.button`
@@ -114,6 +125,8 @@ const Button = styled.button`
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
+  font-size: 2rem;
+  border-radius: 8px;
 
   &:hover {
     background-color: #5a41db;
@@ -130,6 +143,9 @@ const RatingContainer = styled.div`
   display: flex;
   align-items: center;
   font-size: 0.9rem;
+  margin: 1rem;
+  font-size: small;
+  margin-left: -0.2rem;
 
   svg {
     margin-right: 0.5rem;
@@ -178,7 +194,7 @@ const LinkItem = styled.a`
 // SECTION 2
 const Section2 = styled.div`
   background-color: #ffe58f; /* Yellowish background color */
-  padding: 2rem 0;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: center;
   margin: 1rem;
@@ -195,15 +211,18 @@ const Item = styled.div`
   padding: 1rem 2rem;
   transition: background-color 0.4s ease;
   background-color: transparent;
+  border-radius: 8px;
 
   &:hover {
     background-color: white;
+    cursor: pointer;
   }
 
   @media (max-width: 768px) {
     width: 100%;
     justify-content: center;
   }
+  font-size: large;
 `;
 
 const IconContainer = styled.div`
@@ -223,22 +242,23 @@ const TextContainer = styled.div`
 
   & p {
     margin: 0;
-    font-size: 1rem; /* Larger font size for the small text */
+    font-size: 1.2rem; /* Larger font size for the small text */
     color: #666;
   }
 `;
 
 // GUIDE CONTAINER
 const GuideContainer = styled.div`
-  width: 70vw;
+  width: 80vw;
   background: linear-gradient(
     to right,
-    #1e3a5f,
-    #2e5984
+    #0e2a4f,
+    #2773c0
   ); /* Dark blue gradient */
   padding: 2rem;
   display: grid;
   grid-template-columns: 1fr auto 2fr auto;
+  grid-gap: 1rem;
   align-items: center;
   border-radius: 8px;
   position: relative;
@@ -256,49 +276,52 @@ const HeadingColumn = styled.div`
 
   & h2 {
     margin: 0;
-    font-size: 1.5rem; /* Larger font size for heading */
+    /* font-size: 1.5rem;  */
   }
 
   & hr {
     border: none;
     height: 2px;
     background-color: white;
-    width: 80px;
-    margin: 0.5rem 0;
+    /* width: 80px; */
+    width: 90%;
+    margin: 1rem 0;
   }
 
   & p {
     margin: 0;
-    font-size: 1rem; /* Font size for the text below heading */
-    color: #ffd700; /* Golden yellow color for the text */
+    /* font-size: 1rem;  */
+    color: #ffd700;
   }
 `;
 
 const ButtonColumn = styled.div`
   display: flex;
   justify-content: center;
+  /* align-items: center; */
 
   & button {
-    background-color: #ffd700;
+    background-color: #ffe136;
     color: #333;
     border: none;
     padding: 0.75rem 1.5rem;
-    font-size: 1.1rem; /* Font size for button text */
-    font-weight: bold;
-    border-radius: 5px;
+    /* font-size: 1.1rem;  */
+    font-weight: 600;
+    border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.4s ease;
 
     &:hover {
-      background-color: #ffc700; /* Slightly lighter yellow on hover */
+      background-color: #ffc800; /* Slightly lighter yellow on hover */
     }
   }
 `;
 
 const TextColumn = styled.div`
   color: #fff;
-  font-size: 1rem; /* Font size for the main text */
+  /* font-size: 1rem; */
   line-height: 1.6;
+  text-align: center;
 
   @media (max-width: 768px) {
     margin-top: 1rem;
@@ -393,7 +416,7 @@ function Home() {
             <FaTruck />
           </IconContainer>
           <TextContainer>
-            <h3>Next Day Delivery</h3>
+            <h4>Next Day Delivery</h4>
             <p>In-stock products ready for delivery</p>
           </TextContainer>
         </Item>
@@ -402,7 +425,7 @@ function Home() {
             <FaDollarSign />
           </IconContainer>
           <TextContainer>
-            <h3>Special Financing</h3>
+            <h4>Special Financing</h4>
             <p>Pay over time options</p>
           </TextContainer>
         </Item>
@@ -411,7 +434,7 @@ function Home() {
             <FaTag />
           </IconContainer>
           <TextContainer>
-            <h3>Price Match Guarantee</h3>
+            <h4>Price Match Guarantee</h4>
             <p>Trust you&apos;re paying the best price</p>
           </TextContainer>
         </Item>
@@ -420,7 +443,7 @@ function Home() {
             <FaWrench />
           </IconContainer>
           <TextContainer>
-            <h3>Service & Repair</h3>
+            <h4>Service & Repair</h4>
             <p>We service what we sell</p>
           </TextContainer>
         </Item>
@@ -429,7 +452,7 @@ function Home() {
             <FaTools />
           </IconContainer>
           <TextContainer>
-            <h3>Installation Services</h3>
+            <h4>Installation Services</h4>
             <p>Factory-certified teams</p>
           </TextContainer>
         </Item>

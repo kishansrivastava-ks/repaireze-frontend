@@ -33,13 +33,18 @@ const SectionHeader = styled.div`
 `;
 
 const HeaderTitle = styled.h2`
-  font-size: 1.8rem;
-  font-weight: 600;
+  /* font-size: 1.8rem; */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
 `;
 
 const HeaderText = styled.p`
-  font-size: 1rem;
-  color: #666;
+  /* font-size: 1rem; */
+  color: #4c4b4b;
+  font-size: large;
+  letter-spacing: 1px;
+  font-weight: 600;
 `;
 
 const ShopAllButton = styled.button`
@@ -47,6 +52,7 @@ const ShopAllButton = styled.button`
   background-color: #333;
   color: white;
   border: none;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
 
@@ -72,7 +78,8 @@ const SliderContent = styled.div`
 `;
 
 const SlideItem = styled.div`
-  min-width: 33.33%;
+  /* min-width: 33.33%; */
+  min-width: 25%;
   padding: 1rem;
   box-sizing: border-box;
 
@@ -84,7 +91,7 @@ const SlideItem = styled.div`
 const SlideCard = styled.div`
   background-color: white;
   padding: 1rem;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
 `;
@@ -96,8 +103,9 @@ const StockTag = styled.div`
   background-color: green;
   color: white;
   padding: 0.25rem 0.5rem;
-  font-size: 0.85rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  letter-spacing: 1px;
   border-radius: 0 0 8px 0;
   z-index: 5;
 `;
@@ -109,17 +117,17 @@ const ProductImage = styled.img`
 `;
 
 const ProductName = styled.h3`
-  font-size: 1.2rem;
-  margin: 1rem 0 0.5rem;
+  /* font-size: 1.2rem; */
+  /* margin: 1rem 0 0.5rem; */
 `;
 
 const ProductPrice = styled.p`
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: #333;
 `;
 
 const ProductDescription = styled.p`
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #666;
   margin-top: 0.5rem;
 `;
@@ -133,8 +141,9 @@ const ControlButton = styled.button`
   color: white;
   border: none;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0.5rem 1.1rem;
   z-index: 1;
+  border-radius: 50%;
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.7);
