@@ -1,16 +1,28 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import styled from "styled-components";
-// import blogData from "./blog_data.json";
 import blogData from "../../../data/blog_data.json";
 import { Link } from "react-router-dom";
+import Modal from "react-modal"; // Import Modal component
+import { toast } from "react-hot-toast"; // Import react-hot-toast
 
 const BlogGridWithFilter = () => {
-  // States for search, filter, pagination, and visible cards
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [isAddBlogModalOpen, setIsAddBlogModalOpen] = useState(false); // State for Add Blog modal
+  const [isBlogDetailsModalOpen, setIsBlogDetailsModalOpen] = useState(false); // State for Blog Details modal
+  const [selectedBlog, setSelectedBlog] = useState(null); // State for selected blog details
+  const [newBlog, setNewBlog] = useState({
+    title: "",
+    subtitle: "",
+    type: "",
+    brand: "",
+    date: "",
+    thumbnail: "",
+  }); // New blog form data
+
   const cardsPerPage = 12;
 
   // Unique types and brands from blog data for filtering options
@@ -56,6 +68,41 @@ const BlogGridWithFilter = () => {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+  // Handle Add Blog Modal open/close
+  const openAddBlogModal = () => setIsAddBlogModalOpen(true);
+  const closeAddBlogModal = () => setIsAddBlogModalOpen(false);
+
+  // Handle Blog Details Modal open/close
+  const openBlogDetailsModal = (blog) => {
+    setSelectedBlog(blog);
+    setIsBlogDetailsModalOpen(true);
+  };
+  const closeBlogDetailsModal = () => setIsBlogDetailsModalOpen(false);
+
+  // Handle form input change for new blog
+  const handleNewBlogChange = (e) => {
+    setNewBlog({ ...newBlog, [e.target.name]: e.target.value });
+  };
+
+  // Add new blog logic
+  const addNewBlog = () => {
+    if (
+      !newBlog.title ||
+      !newBlog.subtitle ||
+      !newBlog.type ||
+      !newBlog.brand ||
+      !newBlog.date ||
+      !newBlog.thumbnail
+    ) {
+      toast.error("Please fill in all fields");
+      return;
+    }
+    blogData.push(newBlog); // In production, this should be sent to a server
+    setIsAddBlogModalOpen(false);
+    toast.success("Blog added successfully!");
+    // You would need to update state and persist this change in localStorage or a backend server in production
+  };
+
   return (
     <Container>
       <LeftColumn>
@@ -78,33 +125,17 @@ const BlogGridWithFilter = () => {
             </FilterCheckbox>
           ))}
         </FilterSection>
-
-        {/* 🔴 FILTER BY BRAND */}
-        {/* <FilterSection>
-          <FilterHeading>Filter By Brand</FilterHeading>
-          {uniqueBrands.map((brand) => (
-            <FilterCheckbox key={brand}>
-              <input
-                type="checkbox"
-                checked={selectedBrands.includes(brand)}
-                onChange={() => handleBrandChange(brand)}
-              />
-              {brand}
-            </FilterCheckbox>
-          ))}
-        </FilterSection> */}
+        <AddBlogButton onClick={openAddBlogModal}>Add Blog</AddBlogButton>
       </LeftColumn>
 
       <RightColumn>
         <BlogGrid>
           {displayedBlogs.map((blog, index) => (
-            <BlogCard key={index}>
-              <Link to={blog.link}>
-                <Thumbnail src={blog.thumbnail} alt={blog.title} />
-                <CardTitle>{blog.title}</CardTitle>
-                <CardSubtitle>{blog.subtitle}</CardSubtitle>
-                <CardDate>{blog.date}</CardDate>
-              </Link>
+            <BlogCard key={index} onClick={() => openBlogDetailsModal(blog)}>
+              <Thumbnail src={blog.thumbnail} alt={blog.title} />
+              <CardTitle>{blog.title}</CardTitle>
+              <CardSubtitle>{blog.subtitle}</CardSubtitle>
+              <CardDate>{blog.date}</CardDate>
             </BlogCard>
           ))}
         </BlogGrid>
@@ -121,6 +152,51 @@ const BlogGridWithFilter = () => {
           ))}
         </Pagination>
       </RightColumn>
+
+      {/* Add Blog Modal */}
+      <Modal isOpen={isAddBlogModalOpen} onRequestClose={closeAddBlogModal}>
+        <h2>Add New Blog</h2>
+        <input
+          name="title"
+          placeholder="Title"
+          onChange={handleNewBlogChange}
+        />
+        <input
+          name="subtitle"
+          placeholder="Subtitle"
+          onChange={handleNewBlogChange}
+        />
+        <input name="type" placeholder="Type" onChange={handleNewBlogChange} />
+        <input
+          name="brand"
+          placeholder="Brand"
+          onChange={handleNewBlogChange}
+        />
+        <input name="date" placeholder="Date" onChange={handleNewBlogChange} />
+        <input
+          name="thumbnail"
+          placeholder="Image URL"
+          onChange={handleNewBlogChange}
+        />
+        <button onClick={addNewBlog}>Submit</button>
+        <button onClick={closeAddBlogModal}>Close</button>
+      </Modal>
+
+      {/* Blog Details Modal */}
+      {selectedBlog && (
+        <Modal
+          isOpen={isBlogDetailsModalOpen}
+          onRequestClose={closeBlogDetailsModal}
+        >
+          <h2>{selectedBlog.title}</h2>
+          <img src={selectedBlog.thumbnail} alt={selectedBlog.title} />
+          <p>{selectedBlog.subtitle}</p>
+          <p>{selectedBlog.type}</p>
+          <p>{selectedBlog.brand}</p>
+          <p>{selectedBlog.date}</p>
+          <button onClick={closeBlogDetailsModal}>Close</button>
+        </Modal>
+      )}
     </Container>
   );
 };
@@ -240,5 +316,18 @@ const PageNumber = styled.span`
   &:hover {
     background-color: #007bff;
     color: white;
+  }
+`;
+
+const AddBlogButton = styled.button`
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: #0056b3;
   }
 `;

@@ -77,7 +77,7 @@ const TiltedStrip = styled.div`
   position: absolute;
   top: 10px;
   left: -5px;
-  background-color: #7d5fff;
+  background-color: rgb(125, 95, 255);
   color: white;
   padding: 0.5rem 1rem;
   transform: rotate(-15deg);
@@ -93,9 +93,10 @@ const Title = styled.h1`
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   color: #000000;
+  color: #fff;
   font-size: 4rem;
   letter-spacing: 3px;
-  background-color: rgba(0, 179, 255, 0.5);
+  background-color: rgba(125, 95, 255, 0.8);
   padding: 1.5rem 2rem;
   border-radius: 50px;
 
