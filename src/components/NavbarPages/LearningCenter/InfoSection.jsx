@@ -51,11 +51,12 @@ const Content = styled.div`
 `;
 
 const Subheading = styled.h3`
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
+  letter-spacing: 2px;
 
   @media (min-width: 768px) {
     font-size: 1.5rem;
@@ -63,9 +64,11 @@ const Subheading = styled.h3`
 `;
 
 const MainHeading = styled.h1`
-  font-size: 2.5rem;
-  font-weight: 700;
+  /* font-size: 2.5rem; */
+  font-weight: 500;
   margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 
   @media (min-width: 768px) {
     font-size: 4rem;
@@ -73,13 +76,14 @@ const MainHeading = styled.h1`
 `;
 
 const Description = styled.p`
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.6;
   max-width: 600px;
   margin: 0 auto;
+  letter-spacing: 2px;
 
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 1.2rem;
   }
 `;

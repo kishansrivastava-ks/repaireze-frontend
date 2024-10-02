@@ -79,6 +79,7 @@ const Content = styled.div`
 
 const Heading = styled.h1`
   font-size: 2rem;
+  letter-spacing: 2px;
   font-weight: 700;
   margin-bottom: 2rem;
 
@@ -124,14 +125,14 @@ const Slide = styled.div`
 `;
 
 const ReviewText = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   font-style: italic;
-  line-height: 1.5;
+  line-height: 2;
   max-width: 500px;
   margin: 0 1rem;
 
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 1.5rem;
   }
 `;

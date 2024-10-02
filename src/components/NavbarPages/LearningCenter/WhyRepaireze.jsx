@@ -48,11 +48,12 @@ const SectionContainer = styled.section`
   display: flex;
   flex-direction: column;
   background-color: white;
-  padding: 2rem;
+  padding: 2rem 8rem;
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
   }
+  /* border: 2px solid red; */
 `;
 
 const LeftColumn = styled.div`
@@ -63,22 +64,24 @@ const LeftColumn = styled.div`
 `;
 
 const SmallHeading = styled.h3`
-  font-size: 1rem;
+  font-size: 2rem;
   color: black;
   text-transform: uppercase;
-  letter-spacing: 0.05rem;
+  letter-spacing: 2px;
   margin-bottom: 0.5rem;
+  font-weight: 500;
 `;
 
 const MainHeading = styled.h2`
-  font-size: 2rem;
+  font-size: 3.5rem;
   color: #007bff; /* Blue color */
   font-weight: bold;
   margin-bottom: 1rem;
+  letter-spacing: 2px;
 `;
 
 const Description = styled.p`
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #333;
   line-height: 1.6;
   margin-bottom: 2rem;
@@ -89,8 +92,9 @@ const YellowButton = styled.button`
   background-color: #ffcc00;
   color: black;
   border: none;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  letter-spacing: 2px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   align-self: flex-start;

@@ -221,27 +221,33 @@ const LeftColumn = styled.div`
 
 const SearchBar = styled.input`
   width: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
   margin-bottom: 1rem;
   border: 1px solid #ddd;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  &::placeholder {
+    font-size: 1.5rem;
+  }
 `;
 
 const FilterSection = styled.div`
   margin-bottom: 1.5rem;
+  /* background-color: red; */
 `;
 
 const FilterHeading = styled.h3`
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  letter-spacing: 2px;
 `;
 
 const FilterCheckbox = styled.label`
   display: block;
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
   input {
     margin-right: 0.5rem;
   }
@@ -255,7 +261,7 @@ const RightColumn = styled.div`
 const BlogGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 2rem;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
@@ -268,6 +274,7 @@ const BlogCard = styled.div`
   transition: box-shadow 0.3s ease;
   &:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
   }
 `;
 
@@ -278,20 +285,23 @@ const Thumbnail = styled.img`
 `;
 
 const CardTitle = styled.h4`
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
   margin: 0.5rem 0;
   padding: 0 0.5rem;
 `;
 
 const CardSubtitle = styled.p`
-  font-size: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
   color: #666;
   padding: 0 0.5rem;
   margin-bottom: 0.5rem;
 `;
 
 const CardDate = styled.span`
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
   color: #aaa;
   padding: 0 0.5rem;
   display: block;
